@@ -1,11 +1,11 @@
 import {ModuleWithProviders, NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
-import {HomeComponent} from "./home/home.component";
-import {CoursesCardListComponent} from "./courses-card-list/courses-card-list.component";
-import {CourseDialogComponent} from "./course-dialog/course-dialog.component";
-import {CourseResolver} from "./services/course.resolver";
-import {CoursesService} from "./services/courses.service";
-import {CourseComponent} from "./course/course.component";
+import {HomeComponent} from './home/home.component';
+import {CoursesCardListComponent} from './courses-card-list/courses-card-list.component';
+import {CourseDialogComponent} from './course-dialog/course-dialog.component';
+import {CourseResolver} from './services/course.resolver';
+import {CoursesService} from './services/courses.service';
+import {CourseComponent} from './course/course.component';
 import {
     MatDatepickerModule,
     MatDialogModule, MatInputModule, MatPaginatorModule, MatProgressSpinnerModule, MatSelectModule,
